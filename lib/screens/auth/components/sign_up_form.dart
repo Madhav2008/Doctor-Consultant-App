@@ -22,7 +22,7 @@ class SignUpForm extends StatelessWidget {
         children: [
           TextFieldName(text: "Username"),
           TextFormField(
-            decoration: InputDecoration(hintText: "theflutterway"),
+            decoration: InputDecoration(hintText: "madhavarora"),
             validator: RequiredValidator(errorText: "Username is required"),
             // Let's save our username
             onSaved: (username) => _userName = username!,
